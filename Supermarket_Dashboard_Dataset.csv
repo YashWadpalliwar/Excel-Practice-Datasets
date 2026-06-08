@@ -1,0 +1,501 @@
+Invoice ID,Date,Branch,Customer Type,Gender,Product Category,Product Name,Quantity,Unit Price,Revenue,Cost,Profit
+INV0001,3/13/2025,Nagpur,Member,Female,Beverages,Tea,12,331,3972,2675.01,1296.99
+INV0002,11/5/2025,Nagpur,Member,Female,Beverages,Tea,2,273,546,365.71,180.29
+INV0003,1/4/2025,Pune,Normal,Female,Snacks,Namkeen,10,334,3340,2815.05,524.95
+INV0004,2/17/2025,Nashik,Member,Female,Dairy,Cheese,4,831,3324,2330.05,993.95
+INV0005,10/2/2025,Nagpur,Normal,Male,Dairy,Butter,13,94,1222,1000.72,221.28
+INV0006,7/5/2025,Pune,Member,Male,Household,Tissue,14,693,9702,7621.46,2080.54
+INV0007,2/21/2025,Nashik,Normal,Female,Snacks,Cookies,2,925,1850,1239.2,610.8
+INV0008,5/17/2025,Nagpur,Member,Male,Dairy,Cheese,6,413,2478,1642.55,835.45
+INV0009,11/24/2025,Pune,Normal,Male,Snacks,Namkeen,7,326,2282,2046.63,235.37
+INV0010,2/3/2025,Pune,Normal,Male,Snacks,Chips,13,373,4849,3492.97,1356.03
+INV0011,3/15/2025,Mumbai,Member,Male,Personal Care,Face Wash,15,986,14790,11726.33,3063.67
+INV0012,10/26/2025,Nashik,Normal,Male,Household,Tissue,12,648,7776,5665.05,2110.95
+INV0013,2/26/2025,Pune,Member,Female,Snacks,Namkeen,2,823,1646,1010.87,635.13
+INV0014,8/28/2025,Mumbai,Member,Male,Household,Detergent,7,440,3080,2398.6,681.4
+INV0015,5/31/2025,Nashik,Member,Female,Household,Tissue,13,706,9178,6443.44,2734.56
+INV0016,2/24/2025,Mumbai,Member,Male,Beverages,Juice,9,830,7470,4882.36,2587.64
+INV0017,1/1/2025,Mumbai,Normal,Male,Dairy,Cheese,9,847,7623,6683.31,939.69
+INV0018,5/3/2025,Nagpur,Member,Male,Beverages,Juice,15,901,13515,11380.07,2134.93
+INV0019,9/30/2025,Pune,Member,Female,Beverages,Soft Drink,14,120,1680,1500.9,179.1
+INV0020,8/5/2025,Pune,Member,Female,Household,Cleaner,5,590,2950,2542.1,407.9
+INV0021,3/3/2025,Pune,Member,Male,Personal Care,Toothpaste,8,971,7768,5866.96,1901.04
+INV0022,4/23/2025,Nagpur,Member,Male,Dairy,Milk,10,617,6170,4127.94,2042.06
+INV0023,2/6/2025,Pune,Normal,Female,Snacks,Chips,15,82,1230,1055.21,174.79
+INV0024,8/31/2025,Pune,Normal,Female,Snacks,Biscuits,12,953,11436,8820.73,2615.27
+INV0025,8/5/2025,Nashik,Normal,Male,Snacks,Chips,2,724,1448,1056.05,391.95
+INV0026,2/25/2025,Pune,Member,Male,Beverages,Tea,7,795,5565,3905.47,1659.53
+INV0027,8/25/2025,Pune,Member,Female,Household,Mop,3,482,1446,947.2,498.8
+INV0028,1/8/2025,Nagpur,Member,Male,Household,Detergent,1,717,717,645.15,71.85
+INV0029,1/31/2025,Pune,Normal,Male,Personal Care,Face Wash,8,268,2144,1842.54,301.46
+INV0030,5/27/2025,Nashik,Normal,Male,Personal Care,Toothpaste,15,852,12780,10678.19,2101.81
+INV0031,10/5/2025,Nagpur,Normal,Male,Snacks,Cookies,4,109,436,337.36,98.64
+INV0032,3/22/2025,Nagpur,Member,Male,Beverages,Soft Drink,9,991,8919,7633.02,1285.98
+INV0033,3/3/2025,Pune,Member,Male,Beverages,Tea,11,932,10252,6874.59,3377.41
+INV0034,6/10/2025,Pune,Normal,Female,Personal Care,Toothpaste,15,317,4755,3144.38,1610.62
+INV0035,2/7/2025,Nagpur,Normal,Male,Snacks,Cookies,8,373,2984,2622.06,361.94
+INV0036,6/28/2025,Nagpur,Member,Female,Beverages,Coffee,9,321,2889,1848.2,1040.8
+INV0037,6/4/2025,Nagpur,Normal,Male,Dairy,Cheese,8,903,7224,5511.66,1712.34
+INV0038,10/11/2025,Pune,Normal,Female,Snacks,Cookies,2,961,1922,1214.92,707.08
+INV0039,11/21/2025,Mumbai,Normal,Female,Household,Cleaner,12,401,4812,3181.11,1630.89
+INV0040,1/23/2025,Nagpur,Normal,Male,Beverages,Tea,11,483,5313,4509.7,803.3
+INV0041,8/7/2025,Nagpur,Member,Male,Dairy,Cheese,12,502,6024,4611.4,1412.6
+INV0042,3/17/2025,Nashik,Member,Male,Snacks,Chips,14,428,5992,4642.32,1349.68
+INV0043,1/21/2025,Mumbai,Member,Male,Dairy,Butter,15,865,12975,11569.27,1405.73
+INV0044,7/28/2025,Pune,Member,Male,Beverages,Juice,13,623,8099,7007.58,1091.42
+INV0045,6/20/2025,Nashik,Member,Female,Snacks,Namkeen,1,233,233,191.29,41.71
+INV0046,8/29/2025,Pune,Member,Female,Snacks,Chips,7,943,6601,4037.29,2563.71
+INV0047,4/25/2025,Nagpur,Member,Female,Dairy,Butter,14,864,12096,10419.46,1676.54
+INV0048,5/23/2025,Mumbai,Normal,Female,Dairy,Butter,14,121,1694,1507.77,186.23
+INV0049,5/16/2025,Nagpur,Member,Female,Beverages,Tea,15,317,4755,3107.73,1647.27
+INV0050,3/1/2025,Nashik,Member,Female,Dairy,Butter,7,670,4690,4198.82,491.18
+INV0051,10/3/2025,Pune,Normal,Female,Beverages,Soft Drink,1,582,582,510.81,71.19
+INV0052,3/5/2025,Mumbai,Normal,Female,Beverages,Juice,10,371,3710,2964.35,745.65
+INV0053,4/9/2025,Nashik,Normal,Male,Dairy,Yogurt,12,352,4224,3236.95,987.05
+INV0054,6/5/2025,Mumbai,Member,Female,Household,Tissue,7,611,4277,3635.95,641.05
+INV0055,4/20/2025,Nashik,Member,Male,Household,Tissue,8,502,4016,2942.31,1073.69
+INV0056,5/1/2025,Mumbai,Member,Male,Dairy,Butter,2,888,1776,1572.83,203.17
+INV0057,11/9/2025,Nagpur,Normal,Female,Snacks,Chips,1,300,300,268.55,31.45
+INV0058,7/24/2025,Pune,Member,Male,Household,Cleaner,12,763,9156,6548.31,2607.69
+INV0059,12/23/2025,Nashik,Member,Male,Beverages,Soft Drink,4,230,920,773.93,146.07
+INV0060,9/29/2025,Mumbai,Normal,Female,Beverages,Soft Drink,3,870,2610,1929.82,680.18
+INV0061,9/1/2025,Nashik,Normal,Male,Household,Mop,15,212,3180,2617.45,562.55
+INV0062,2/9/2025,Mumbai,Member,Female,Dairy,Yogurt,11,294,3234,2206.81,1027.19
+INV0063,3/19/2025,Pune,Normal,Male,Dairy,Butter,15,603,9045,5645.65,3399.35
+INV0064,8/27/2025,Nashik,Member,Male,Snacks,Chips,7,467,3269,2285.9,983.1
+INV0065,12/23/2025,Nagpur,Normal,Female,Personal Care,Face Wash,15,838,12570,9744.56,2825.44
+INV0066,8/3/2025,Pune,Normal,Male,Beverages,Juice,5,821,4105,2943.27,1161.73
+INV0067,12/9/2025,Nashik,Member,Female,Dairy,Yogurt,8,79,632,452.93,179.07
+INV0068,12/6/2025,Nagpur,Member,Female,Snacks,Chips,15,453,6795,5283.57,1511.43
+INV0069,6/17/2025,Pune,Normal,Female,Snacks,Namkeen,3,101,303,205.45,97.55
+INV0070,8/4/2025,Mumbai,Member,Female,Dairy,Yogurt,5,820,4100,3629.98,470.02
+INV0071,11/30/2025,Nagpur,Member,Male,Beverages,Tea,6,279,1674,1330.9,343.1
+INV0072,8/31/2025,Nagpur,Member,Female,Snacks,Chips,10,206,2060,1383.42,676.58
+INV0073,2/28/2025,Pune,Normal,Male,Dairy,Butter,3,670,2010,1572.17,437.83
+INV0074,7/12/2025,Nashik,Member,Male,Household,Detergent,15,369,5535,4277.11,1257.89
+INV0075,12/17/2025,Nagpur,Member,Female,Household,Cleaner,2,763,1526,1269.24,256.76
+INV0076,11/28/2025,Mumbai,Member,Female,Household,Mop,11,429,4719,2929.02,1789.98
+INV0077,8/24/2025,Pune,Normal,Male,Personal Care,Shampoo,7,420,2940,2324.59,615.41
+INV0078,9/5/2025,Nashik,Normal,Female,Household,Tissue,10,877,8770,7681.51,1088.49
+INV0079,8/19/2025,Pune,Normal,Female,Dairy,Cheese,14,138,1932,1320.87,611.13
+INV0080,9/7/2025,Pune,Normal,Female,Dairy,Milk,8,921,7368,5139.21,2228.79
+INV0081,5/22/2025,Nagpur,Member,Male,Dairy,Butter,15,660,9900,8022.52,1877.48
+INV0082,12/20/2025,Nashik,Normal,Female,Snacks,Namkeen,8,618,4944,4090.91,853.09
+INV0083,5/5/2025,Mumbai,Normal,Female,Beverages,Tea,5,276,1380,995.42,384.58
+INV0084,6/30/2025,Nashik,Normal,Female,Household,Tissue,7,813,5691,4354.28,1336.72
+INV0085,3/3/2025,Pune,Member,Male,Dairy,Cheese,2,788,1576,1036.65,539.35
+INV0086,9/26/2025,Mumbai,Member,Male,Personal Care,Toothpaste,12,653,7836,6997.41,838.59
+INV0087,12/29/2025,Pune,Normal,Male,Dairy,Cheese,6,233,1398,965.57,432.43
+INV0088,9/9/2025,Nagpur,Member,Female,Beverages,Juice,12,179,2148,1699.84,448.16
+INV0089,1/27/2025,Mumbai,Normal,Male,Personal Care,Face Wash,8,398,3184,2086.5,1097.5
+INV0090,12/18/2025,Nagpur,Member,Male,Beverages,Soft Drink,8,125,1000,773.11,226.89
+INV0091,8/2/2025,Pune,Normal,Female,Household,Tissue,2,304,608,386.41,221.59
+INV0092,6/6/2025,Nagpur,Member,Male,Personal Care,Toothpaste,14,652,9128,8187.9,940.1
+INV0093,3/30/2025,Nagpur,Member,Male,Snacks,Cookies,11,133,1463,946.73,516.27
+INV0094,1/17/2025,Pune,Normal,Female,Personal Care,Face Wash,12,658,7896,5850.73,2045.27
+INV0095,11/17/2025,Pune,Normal,Male,Personal Care,Shampoo,11,289,3179,2788.53,390.47
+INV0096,3/14/2025,Nagpur,Member,Male,Household,Cleaner,11,202,2222,1938.75,283.25
+INV0097,6/5/2025,Nashik,Normal,Female,Dairy,Butter,8,177,1416,1048.7,367.3
+INV0098,6/15/2025,Mumbai,Member,Male,Personal Care,Shampoo,10,90,900,780.14,119.86
+INV0099,10/23/2025,Nagpur,Member,Female,Snacks,Chips,13,738,9594,8120.61,1473.39
+INV0100,10/27/2025,Nashik,Normal,Male,Household,Mop,15,334,5010,3278.78,1731.22
+INV0101,2/23/2025,Pune,Normal,Female,Personal Care,Toothpaste,7,391,2737,1905.82,831.18
+INV0102,10/9/2025,Nagpur,Normal,Male,Personal Care,Toothpaste,11,460,5060,4270.99,789.01
+INV0103,7/26/2025,Nagpur,Normal,Female,Dairy,Butter,6,168,1008,898.18,109.82
+INV0104,9/13/2025,Nashik,Member,Male,Beverages,Coffee,9,420,3780,2974.07,805.93
+INV0105,12/24/2025,Nashik,Member,Male,Dairy,Cheese,15,344,5160,3774.2,1385.8
+INV0106,1/8/2025,Nashik,Member,Male,Household,Cleaner,12,212,2544,1763.56,780.44
+INV0107,9/13/2025,Mumbai,Normal,Female,Beverages,Soft Drink,2,713,1426,1211.59,214.41
+INV0108,7/16/2025,Pune,Member,Male,Personal Care,Face Wash,4,517,2068,1582.8,485.2
+INV0109,1/2/2025,Mumbai,Normal,Female,Dairy,Yogurt,6,856,5136,3863.92,1272.08
+INV0110,10/10/2025,Nashik,Normal,Female,Snacks,Namkeen,9,545,4905,3450.85,1454.15
+INV0111,7/30/2025,Nagpur,Normal,Female,Snacks,Biscuits,10,442,4420,2961.7,1458.3
+INV0112,3/19/2025,Nashik,Member,Male,Personal Care,Face Wash,11,861,9471,8014.59,1456.41
+INV0113,8/14/2025,Nagpur,Normal,Male,Household,Tissue,14,152,2128,1834.88,293.12
+INV0114,2/8/2025,Nashik,Normal,Female,Snacks,Namkeen,14,720,10080,8981.15,1098.85
+INV0115,12/12/2025,Nashik,Normal,Female,Household,Mop,11,132,1452,1242.23,209.77
+INV0116,12/17/2025,Mumbai,Member,Male,Household,Detergent,10,120,1200,804.52,395.48
+INV0117,2/21/2025,Nashik,Member,Female,Personal Care,Shampoo,13,698,9074,7360.53,1713.47
+INV0118,7/3/2025,Mumbai,Normal,Male,Beverages,Tea,6,865,5190,3201.38,1988.62
+INV0119,3/29/2025,Pune,Member,Female,Snacks,Namkeen,10,748,7480,6266.41,1213.59
+INV0120,4/29/2025,Nashik,Normal,Female,Household,Cleaner,8,984,7872,6100.38,1771.62
+INV0121,5/28/2025,Pune,Member,Female,Dairy,Milk,15,873,13095,9684.75,3410.25
+INV0122,8/22/2025,Mumbai,Member,Female,Dairy,Butter,11,484,5324,4296.97,1027.03
+INV0123,10/22/2025,Mumbai,Normal,Male,Personal Care,Shampoo,4,440,1760,1357.98,402.02
+INV0124,1/26/2025,Nashik,Normal,Male,Personal Care,Toothpaste,1,629,629,540.64,88.36
+INV0125,5/9/2025,Pune,Member,Male,Household,Tissue,4,701,2804,1842.34,961.66
+INV0126,3/9/2025,Nagpur,Normal,Female,Dairy,Yogurt,1,643,643,456.18,186.82
+INV0127,7/7/2025,Mumbai,Member,Female,Personal Care,Soap,4,185,740,618.61,121.39
+INV0128,2/28/2025,Nashik,Member,Male,Personal Care,Toothpaste,12,941,11292,7922.63,3369.37
+INV0129,2/16/2025,Nashik,Member,Female,Snacks,Namkeen,14,873,12222,9376.64,2845.36
+INV0130,12/11/2025,Mumbai,Normal,Female,Household,Detergent,8,427,3416,2739.11,676.89
+INV0131,10/15/2025,Mumbai,Member,Male,Beverages,Coffee,8,75,600,471.52,128.48
+INV0132,1/24/2025,Nagpur,Normal,Female,Personal Care,Toothpaste,11,468,5148,3268.99,1879.01
+INV0133,7/18/2025,Nashik,Normal,Female,Beverages,Tea,4,958,3832,2917.16,914.84
+INV0134,9/8/2025,Nashik,Normal,Male,Household,Cleaner,15,474,7110,5662.95,1447.05
+INV0135,7/5/2025,Nagpur,Normal,Female,Dairy,Cheese,8,505,4040,3576.07,463.93
+INV0136,8/21/2025,Nagpur,Member,Male,Beverages,Soft Drink,5,244,1220,1086.36,133.64
+INV0137,4/16/2025,Nagpur,Member,Male,Beverages,Juice,4,178,712,595.3,116.7
+INV0138,11/2/2025,Nagpur,Normal,Male,Snacks,Cookies,13,201,2613,2186.02,426.98
+INV0139,1/14/2025,Pune,Member,Female,Snacks,Cookies,13,228,2964,1876.15,1087.85
+INV0140,3/6/2025,Nashik,Member,Male,Snacks,Cookies,1,228,228,154.95,73.05
+INV0141,2/25/2025,Nashik,Member,Male,Personal Care,Face Wash,13,420,5460,4116.68,1343.32
+INV0142,2/1/2025,Nashik,Normal,Female,Household,Tissue,8,708,5664,5036.47,627.53
+INV0143,2/11/2025,Mumbai,Member,Male,Beverages,Soft Drink,12,981,11772,8629.68,3142.32
+INV0144,12/31/2025,Mumbai,Normal,Female,Snacks,Cookies,10,698,6980,5413.75,1566.25
+INV0145,12/2/2025,Pune,Normal,Female,Personal Care,Face Wash,2,862,1724,1397.36,326.64
+INV0146,8/1/2025,Nagpur,Normal,Female,Snacks,Namkeen,6,897,5382,3961.42,1420.58
+INV0147,8/31/2025,Nagpur,Member,Male,Dairy,Butter,6,206,1236,996.27,239.73
+INV0148,3/8/2025,Nagpur,Normal,Male,Beverages,Soft Drink,2,812,1624,1334.34,289.66
+INV0149,8/5/2025,Nagpur,Normal,Female,Personal Care,Toothpaste,14,731,10234,9029.86,1204.14
+INV0150,12/3/2025,Nashik,Member,Male,Dairy,Milk,10,569,5690,3777.15,1912.85
+INV0151,4/26/2025,Nashik,Member,Female,Dairy,Butter,2,830,1660,1134.73,525.27
+INV0152,6/23/2025,Mumbai,Member,Male,Beverages,Coffee,5,769,3845,3186.44,658.56
+INV0153,1/16/2025,Nagpur,Member,Female,Snacks,Namkeen,2,195,390,320.69,69.31
+INV0154,6/16/2025,Nagpur,Member,Male,Personal Care,Face Wash,6,211,1266,900.15,365.85
+INV0155,12/5/2025,Nashik,Normal,Female,Snacks,Chips,11,133,1463,997.23,465.77
+INV0156,6/26/2025,Nashik,Member,Female,Personal Care,Toothpaste,4,823,3292,2481.19,810.81
+INV0157,4/23/2025,Nashik,Member,Male,Household,Mop,9,733,6597,4568.59,2028.41
+INV0158,5/11/2025,Mumbai,Normal,Male,Snacks,Cookies,4,835,3340,2141.51,1198.49
+INV0159,7/14/2025,Pune,Normal,Male,Beverages,Soft Drink,12,490,5880,3837.93,2042.07
+INV0160,2/9/2025,Mumbai,Normal,Female,Personal Care,Shampoo,7,69,483,356.42,126.58
+INV0161,6/16/2025,Pune,Normal,Female,Personal Care,Toothpaste,2,464,928,562.61,365.39
+INV0162,10/29/2025,Nashik,Member,Female,Beverages,Soft Drink,14,158,2212,1488.66,723.34
+INV0163,2/9/2025,Nagpur,Member,Female,Dairy,Butter,4,391,1564,1303.96,260.04
+INV0164,4/12/2025,Pune,Member,Male,Dairy,Cheese,4,155,620,399.24,220.76
+INV0165,10/24/2025,Nashik,Normal,Female,Snacks,Namkeen,8,822,6576,5057.74,1518.26
+INV0166,6/5/2025,Mumbai,Member,Female,Snacks,Namkeen,2,530,1060,776.62,283.38
+INV0167,1/30/2025,Mumbai,Normal,Male,Household,Detergent,5,522,2610,1919.85,690.15
+INV0168,1/22/2025,Nashik,Member,Female,Beverages,Soft Drink,8,644,5152,3947.95,1204.05
+INV0169,8/19/2025,Nagpur,Normal,Male,Household,Mop,9,204,1836,1629.11,206.89
+INV0170,8/13/2025,Pune,Normal,Female,Household,Cleaner,1,303,303,246.12,56.88
+INV0171,11/3/2025,Nagpur,Normal,Male,Dairy,Yogurt,7,843,5901,4139.61,1761.39
+INV0172,5/10/2025,Pune,Normal,Male,Dairy,Milk,9,744,6696,4794.13,1901.87
+INV0173,12/2/2025,Nashik,Member,Male,Household,Cleaner,15,408,6120,4241.59,1878.41
+INV0174,3/7/2025,Nagpur,Normal,Female,Dairy,Yogurt,11,860,9460,6608.22,2851.78
+INV0175,6/24/2025,Nashik,Member,Male,Beverages,Juice,5,234,1170,1035.86,134.14
+INV0176,2/21/2025,Nagpur,Normal,Male,Snacks,Biscuits,2,352,704,600.74,103.26
+INV0177,12/21/2025,Pune,Normal,Male,Household,Mop,3,216,648,423.96,224.04
+INV0178,8/16/2025,Mumbai,Normal,Male,Personal Care,Toothpaste,11,786,8646,5803.71,2842.29
+INV0179,4/10/2025,Mumbai,Normal,Female,Household,Cleaner,5,878,4390,3667.02,722.98
+INV0180,3/24/2025,Pune,Member,Female,Dairy,Yogurt,9,590,5310,3852.93,1457.07
+INV0181,2/22/2025,Nagpur,Normal,Male,Beverages,Soft Drink,14,430,6020,4613.5,1406.5
+INV0182,8/12/2025,Nagpur,Member,Female,Snacks,Cookies,8,977,7816,5893.31,1922.69
+INV0183,7/11/2025,Pune,Normal,Male,Dairy,Milk,7,104,728,523.39,204.61
+INV0184,11/29/2025,Mumbai,Member,Male,Dairy,Cheese,1,376,376,330.6,45.4
+INV0185,3/13/2025,Nashik,Normal,Male,Beverages,Juice,15,899,13485,10002.32,3482.68
+INV0186,10/8/2025,Nashik,Member,Female,Beverages,Tea,5,270,1350,1148.16,201.84
+INV0187,11/24/2025,Nashik,Member,Male,Snacks,Cookies,2,98,196,131.62,64.38
+INV0188,3/15/2025,Mumbai,Normal,Male,Personal Care,Shampoo,11,577,6347,4903.15,1443.85
+INV0189,12/7/2025,Nagpur,Normal,Male,Household,Tissue,4,634,2536,1838.52,697.48
+INV0190,11/22/2025,Nashik,Normal,Female,Household,Detergent,7,944,6608,4896.8,1711.2
+INV0191,12/3/2025,Nagpur,Normal,Male,Beverages,Juice,13,119,1547,1088.22,458.78
+INV0192,3/31/2025,Nashik,Normal,Male,Beverages,Juice,9,396,3564,3008.2,555.8
+INV0193,1/19/2025,Mumbai,Member,Male,Snacks,Chips,12,844,10128,8943.85,1184.15
+INV0194,10/6/2025,Nashik,Normal,Male,Snacks,Chips,6,367,2202,1661.66,540.34
+INV0195,12/2/2025,Mumbai,Normal,Male,Snacks,Cookies,6,932,5592,4665.14,926.86
+INV0196,7/17/2025,Mumbai,Member,Female,Dairy,Yogurt,15,459,6885,5666.3,1218.7
+INV0197,2/12/2025,Nashik,Member,Female,Personal Care,Toothpaste,15,866,12990,9817.62,3172.38
+INV0198,2/10/2025,Mumbai,Normal,Female,Household,Cleaner,9,350,3150,2193.54,956.46
+INV0199,8/17/2025,Nagpur,Normal,Female,Personal Care,Face Wash,3,756,2268,1662.84,605.16
+INV0200,7/6/2025,Pune,Member,Male,Dairy,Milk,2,737,1474,1166.31,307.69
+INV0201,11/27/2025,Mumbai,Normal,Female,Household,Mop,1,179,179,111.01,67.99
+INV0202,7/9/2025,Mumbai,Normal,Male,Household,Detergent,10,207,2070,1663.7,406.3
+INV0203,11/29/2025,Mumbai,Member,Male,Household,Cleaner,9,425,3825,2751.74,1073.26
+INV0204,10/15/2025,Nagpur,Normal,Female,Beverages,Coffee,8,580,4640,3322.69,1317.31
+INV0205,9/9/2025,Pune,Member,Male,Personal Care,Soap,10,342,3420,2764.02,655.98
+INV0206,2/14/2025,Mumbai,Normal,Male,Beverages,Soft Drink,3,970,2910,2368.77,541.23
+INV0207,12/31/2025,Pune,Normal,Male,Household,Tissue,15,357,5355,4580.71,774.29
+INV0208,9/10/2025,Nagpur,Normal,Female,Beverages,Coffee,13,192,2496,1674.87,821.13
+INV0209,6/8/2025,Nashik,Normal,Female,Personal Care,Soap,10,955,9550,5977.01,3572.99
+INV0210,8/19/2025,Nashik,Normal,Male,Personal Care,Shampoo,3,374,1122,889.41,232.59
+INV0211,1/29/2025,Nagpur,Member,Female,Household,Cleaner,13,182,2366,1726.67,639.33
+INV0212,9/23/2025,Mumbai,Member,Female,Snacks,Biscuits,6,776,4656,3108.54,1547.46
+INV0213,10/1/2025,Nagpur,Member,Male,Snacks,Cookies,3,690,2070,1430.05,639.95
+INV0214,1/15/2025,Nagpur,Member,Female,Snacks,Cookies,14,996,13944,10724.13,3219.87
+INV0215,11/18/2025,Mumbai,Normal,Female,Snacks,Namkeen,10,704,7040,4287.96,2752.04
+INV0216,1/31/2025,Pune,Normal,Female,Snacks,Namkeen,5,514,2570,1598.26,971.74
+INV0217,6/10/2025,Mumbai,Normal,Female,Personal Care,Face Wash,4,398,1592,1244.94,347.06
+INV0218,5/4/2025,Nashik,Member,Female,Snacks,Cookies,9,625,5625,3554.19,2070.81
+INV0219,7/16/2025,Nashik,Member,Male,Personal Care,Soap,3,149,447,274.99,172.01
+INV0220,9/21/2025,Nashik,Normal,Female,Dairy,Butter,4,831,3324,2153.3,1170.7
+INV0221,5/4/2025,Pune,Normal,Male,Personal Care,Shampoo,2,452,904,679.48,224.52
+INV0222,12/1/2025,Nashik,Normal,Male,Beverages,Juice,8,661,5288,4572.54,715.46
+INV0223,7/7/2025,Nashik,Normal,Male,Beverages,Soft Drink,3,953,2859,1942.24,916.76
+INV0224,10/11/2025,Mumbai,Member,Female,Personal Care,Shampoo,10,625,6250,4114.98,2135.02
+INV0225,11/16/2025,Nagpur,Member,Male,Household,Mop,13,613,7969,5450.13,2518.87
+INV0226,7/7/2025,Pune,Member,Female,Personal Care,Toothpaste,13,397,5161,3960.29,1200.71
+INV0227,6/20/2025,Nashik,Normal,Male,Household,Detergent,1,89,89,57.06,31.94
+INV0228,7/21/2025,Mumbai,Normal,Female,Household,Cleaner,6,677,4062,2825.36,1236.64
+INV0229,6/19/2025,Nagpur,Normal,Female,Household,Tissue,8,885,7080,4283.34,2796.66
+INV0230,10/24/2025,Pune,Member,Female,Beverages,Soft Drink,5,721,3605,3009.71,595.29
+INV0231,1/17/2025,Nagpur,Member,Male,Snacks,Namkeen,3,891,2673,2149.67,523.33
+INV0232,4/15/2025,Nashik,Normal,Male,Personal Care,Toothpaste,7,205,1435,1038.78,396.22
+INV0233,9/2/2025,Nashik,Normal,Male,Snacks,Biscuits,9,382,3438,3092.26,345.74
+INV0234,12/15/2025,Mumbai,Normal,Male,Personal Care,Toothpaste,9,412,3708,2976.64,731.36
+INV0235,6/2/2025,Mumbai,Member,Female,Snacks,Cookies,9,355,3195,2132.54,1062.46
+INV0236,5/21/2025,Mumbai,Member,Female,Dairy,Yogurt,6,623,3738,3289.85,448.15
+INV0237,1/22/2025,Mumbai,Member,Female,Personal Care,Toothpaste,13,873,11349,7308.11,4040.89
+INV0238,10/3/2025,Mumbai,Normal,Male,Personal Care,Toothpaste,12,540,6480,4303.99,2176.01
+INV0239,9/29/2025,Pune,Member,Male,Beverages,Coffee,4,101,404,323.58,80.42
+INV0240,12/15/2025,Pune,Member,Male,Beverages,Soft Drink,6,784,4704,3489.06,1214.94
+INV0241,5/28/2025,Mumbai,Normal,Male,Personal Care,Face Wash,8,716,5728,3779.55,1948.45
+INV0242,1/20/2025,Pune,Normal,Male,Beverages,Coffee,9,806,7254,5926.05,1327.95
+INV0243,5/29/2025,Nagpur,Member,Female,Beverages,Soft Drink,13,557,7241,4749.32,2491.68
+INV0244,11/25/2025,Nashik,Member,Female,Household,Detergent,15,393,5895,4040.25,1854.75
+INV0245,8/23/2025,Mumbai,Member,Male,Dairy,Cheese,13,165,2145,1499.8,645.2
+INV0246,3/31/2025,Nashik,Normal,Female,Dairy,Butter,10,740,7400,6121.17,1278.83
+INV0247,3/13/2025,Nashik,Normal,Male,Beverages,Soft Drink,11,147,1617,1059.84,557.16
+INV0248,5/17/2025,Mumbai,Normal,Male,Beverages,Juice,7,291,2037,1495.2,541.8
+INV0249,3/2/2025,Nashik,Normal,Male,Dairy,Butter,12,291,3492,2160.28,1331.72
+INV0250,6/1/2025,Mumbai,Member,Male,Personal Care,Toothpaste,12,170,2040,1614.89,425.11
+INV0251,11/7/2025,Mumbai,Normal,Female,Snacks,Namkeen,3,515,1545,1273.58,271.42
+INV0252,11/2/2025,Nagpur,Normal,Female,Household,Cleaner,13,303,3939,3167.36,771.64
+INV0253,9/16/2025,Pune,Member,Male,Beverages,Tea,1,898,898,686.34,211.66
+INV0254,10/26/2025,Nashik,Member,Female,Dairy,Yogurt,2,746,1492,987.14,504.86
+INV0255,10/16/2025,Nagpur,Normal,Female,Beverages,Soft Drink,3,575,1725,1249.98,475.02
+INV0256,4/22/2025,Nagpur,Member,Female,Beverages,Soft Drink,5,886,4430,2662.01,1767.99
+INV0257,2/5/2025,Nashik,Member,Female,Dairy,Milk,9,111,999,879.49,119.51
+INV0258,11/27/2025,Nashik,Normal,Female,Personal Care,Soap,13,188,2444,2027.9,416.1
+INV0259,12/5/2025,Pune,Normal,Male,Personal Care,Face Wash,7,132,924,743.65,180.35
+INV0260,4/25/2025,Nagpur,Member,Female,Snacks,Namkeen,9,180,1620,1325.74,294.26
+INV0261,5/7/2025,Nashik,Normal,Male,Personal Care,Face Wash,9,438,3942,3338.91,603.09
+INV0262,2/27/2025,Nagpur,Normal,Male,Dairy,Cheese,15,946,14190,11600.43,2589.57
+INV0263,8/17/2025,Nagpur,Member,Male,Snacks,Biscuits,2,153,306,238.12,67.88
+INV0264,1/29/2025,Pune,Normal,Male,Personal Care,Face Wash,4,602,2408,1601.76,806.24
+INV0265,6/14/2025,Pune,Normal,Male,Household,Tissue,10,662,6620,5506.26,1113.74
+INV0266,10/13/2025,Pune,Normal,Female,Household,Cleaner,7,357,2499,1705.68,793.32
+INV0267,9/26/2025,Mumbai,Normal,Female,Beverages,Juice,11,737,8107,5791.21,2315.79
+INV0268,8/31/2025,Pune,Member,Female,Snacks,Cookies,7,238,1666,1376.66,289.34
+INV0269,8/2/2025,Pune,Normal,Male,Snacks,Namkeen,15,109,1635,1256.85,378.15
+INV0270,8/19/2025,Mumbai,Member,Male,Dairy,Cheese,6,712,4272,2664.54,1607.46
+INV0271,1/21/2025,Nagpur,Member,Male,Beverages,Juice,7,739,5173,4042.65,1130.35
+INV0272,1/8/2025,Pune,Member,Male,Personal Care,Soap,14,978,13692,9582.88,4109.12
+INV0273,7/23/2025,Pune,Normal,Female,Personal Care,Soap,12,668,8016,6502.02,1513.98
+INV0274,5/14/2025,Mumbai,Normal,Female,Personal Care,Face Wash,9,714,6426,4548.18,1877.82
+INV0275,4/15/2025,Mumbai,Normal,Female,Beverages,Soft Drink,13,909,11817,8225.46,3591.54
+INV0276,10/11/2025,Nashik,Normal,Male,Beverages,Coffee,12,199,2388,1444.42,943.58
+INV0277,5/6/2025,Nashik,Normal,Female,Snacks,Cookies,4,438,1752,1350.68,401.32
+INV0278,6/30/2025,Pune,Member,Female,Personal Care,Face Wash,8,222,1776,1456.02,319.98
+INV0279,2/8/2025,Nagpur,Member,Female,Snacks,Chips,9,84,756,643.9,112.1
+INV0280,4/22/2025,Nashik,Normal,Male,Snacks,Biscuits,2,774,1548,998.94,549.06
+INV0281,9/30/2025,Nashik,Member,Male,Household,Mop,11,549,6039,3651.9,2387.1
+INV0282,12/24/2025,Nashik,Member,Male,Household,Tissue,9,343,3087,1868.08,1218.92
+INV0283,5/10/2025,Mumbai,Normal,Female,Beverages,Coffee,4,246,984,773.36,210.64
+INV0284,12/23/2025,Pune,Normal,Male,Beverages,Juice,7,520,3640,2800.98,839.02
+INV0285,9/1/2025,Nagpur,Member,Male,Beverages,Tea,7,438,3066,2186.52,879.48
+INV0286,6/19/2025,Nagpur,Member,Male,Beverages,Soft Drink,14,494,6916,5487.65,1428.35
+INV0287,12/17/2025,Mumbai,Member,Male,Snacks,Namkeen,5,97,485,425.47,59.53
+INV0288,12/31/2025,Nashik,Member,Female,Dairy,Milk,4,651,2604,1675.04,928.96
+INV0289,12/13/2025,Mumbai,Normal,Male,Snacks,Biscuits,10,904,9040,7727.69,1312.31
+INV0290,2/8/2025,Mumbai,Normal,Female,Beverages,Juice,1,150,150,109.67,40.33
+INV0291,7/2/2025,Nashik,Normal,Male,Beverages,Juice,13,511,6643,4963.52,1679.48
+INV0292,5/7/2025,Nagpur,Member,Female,Household,Mop,2,840,1680,1319.78,360.22
+INV0293,7/19/2025,Mumbai,Normal,Male,Snacks,Namkeen,12,852,10224,8078.7,2145.3
+INV0294,5/19/2025,Nagpur,Member,Male,Beverages,Tea,5,505,2525,1787.64,737.36
+INV0295,7/28/2025,Nagpur,Member,Male,Snacks,Namkeen,8,620,4960,3801.45,1158.55
+INV0296,7/17/2025,Nagpur,Normal,Female,Dairy,Milk,10,662,6620,5529.9,1090.1
+INV0297,5/5/2025,Pune,Normal,Male,Personal Care,Shampoo,12,972,11664,8956.33,2707.67
+INV0298,2/2/2025,Pune,Normal,Female,Snacks,Cookies,5,324,1620,1211.66,408.34
+INV0299,5/9/2025,Pune,Normal,Male,Personal Care,Toothpaste,8,851,6808,4241.9,2566.1
+INV0300,7/22/2025,Mumbai,Normal,Female,Personal Care,Shampoo,3,361,1083,652,431
+INV0301,11/30/2025,Pune,Normal,Female,Personal Care,Toothpaste,7,885,6195,5247.54,947.46
+INV0302,7/23/2025,Mumbai,Normal,Female,Household,Cleaner,8,371,2968,1938.97,1029.03
+INV0303,7/21/2025,Mumbai,Member,Male,Household,Cleaner,6,435,2610,1785.48,824.52
+INV0304,8/25/2025,Pune,Normal,Female,Household,Cleaner,11,836,9196,7035.21,2160.79
+INV0305,6/5/2025,Pune,Normal,Male,Beverages,Soft Drink,11,561,6171,3960.26,2210.74
+INV0306,9/3/2025,Nashik,Normal,Male,Personal Care,Face Wash,2,509,1018,913.36,104.64
+INV0307,12/7/2025,Mumbai,Member,Male,Dairy,Milk,2,837,1674,1129.06,544.94
+INV0308,8/9/2025,Nagpur,Member,Male,Household,Mop,13,389,5057,4499.29,557.71
+INV0309,10/25/2025,Pune,Normal,Female,Dairy,Cheese,9,814,7326,5535.81,1790.19
+INV0310,9/14/2025,Pune,Normal,Male,Personal Care,Face Wash,13,745,9685,7521.15,2163.85
+INV0311,2/13/2025,Nagpur,Member,Female,Personal Care,Shampoo,5,475,2375,2080.89,294.11
+INV0312,9/5/2025,Mumbai,Normal,Male,Dairy,Butter,8,853,6824,4517.9,2306.1
+INV0313,12/30/2025,Nagpur,Member,Female,Personal Care,Face Wash,6,118,708,488.58,219.42
+INV0314,3/31/2025,Pune,Normal,Female,Beverages,Coffee,15,808,12120,8158.87,3961.13
+INV0315,4/6/2025,Nashik,Normal,Male,Personal Care,Soap,13,464,6032,4758.81,1273.19
+INV0316,1/3/2025,Pune,Member,Female,Household,Cleaner,8,656,5248,3825.09,1422.91
+INV0317,7/7/2025,Mumbai,Member,Female,Beverages,Tea,13,942,12246,9320.02,2925.98
+INV0318,11/24/2025,Mumbai,Normal,Female,Beverages,Juice,11,933,10263,7664.87,2598.13
+INV0319,11/13/2025,Pune,Normal,Male,Household,Detergent,6,410,2460,2099.99,360.01
+INV0320,4/4/2025,Mumbai,Member,Female,Snacks,Cookies,2,294,588,406.67,181.33
+INV0321,9/7/2025,Pune,Member,Female,Personal Care,Soap,10,442,4420,3212.95,1207.05
+INV0322,11/14/2025,Nagpur,Normal,Male,Dairy,Cheese,3,372,1116,951.5,164.5
+INV0323,10/15/2025,Nashik,Normal,Female,Personal Care,Soap,4,884,3536,2528.89,1007.11
+INV0324,1/16/2025,Pune,Normal,Male,Personal Care,Face Wash,8,221,1768,1104.65,663.35
+INV0325,8/23/2025,Nashik,Member,Male,Dairy,Cheese,9,345,3105,2019.69,1085.31
+INV0326,8/14/2025,Pune,Normal,Male,Dairy,Butter,9,892,8028,6639.44,1388.56
+INV0327,6/28/2025,Nagpur,Normal,Male,Snacks,Cookies,14,83,1162,853.98,308.02
+INV0328,6/29/2025,Nashik,Member,Male,Snacks,Biscuits,13,805,10465,8124.79,2340.21
+INV0329,9/30/2025,Mumbai,Member,Female,Snacks,Biscuits,13,110,1430,1102.56,327.44
+INV0330,9/21/2025,Nagpur,Member,Female,Dairy,Butter,10,323,3230,2860.87,369.13
+INV0331,3/9/2025,Pune,Member,Female,Beverages,Juice,14,721,10094,6440.64,3653.36
+INV0332,5/18/2025,Nashik,Normal,Female,Snacks,Namkeen,8,195,1560,1206.24,353.76
+INV0333,12/22/2025,Mumbai,Normal,Female,Beverages,Tea,7,577,4039,3331.94,707.06
+INV0334,2/17/2025,Nashik,Normal,Male,Dairy,Milk,14,842,11788,10068.72,1719.28
+INV0335,9/11/2025,Mumbai,Normal,Female,Household,Mop,4,489,1956,1657.62,298.38
+INV0336,6/25/2025,Nagpur,Member,Male,Dairy,Cheese,10,922,9220,6874.44,2345.56
+INV0337,8/22/2025,Nagpur,Normal,Male,Personal Care,Shampoo,2,928,1856,1201.57,654.43
+INV0338,5/21/2025,Nagpur,Normal,Female,Snacks,Cookies,3,945,2835,2494.28,340.72
+INV0339,1/27/2025,Nashik,Normal,Male,Beverages,Juice,11,975,10725,8522.87,2202.13
+INV0340,9/2/2025,Nagpur,Member,Male,Personal Care,Shampoo,12,147,1764,1058.97,705.03
+INV0341,3/3/2025,Nashik,Member,Female,Household,Mop,1,58,58,46.9,11.1
+INV0342,2/22/2025,Nagpur,Normal,Female,Beverages,Coffee,7,141,987,808.58,178.42
+INV0343,3/10/2025,Pune,Member,Male,Dairy,Cheese,7,842,5894,4974.6,919.4
+INV0344,11/18/2025,Pune,Normal,Female,Household,Cleaner,8,409,3272,2672.34,599.66
+INV0345,3/5/2025,Nashik,Normal,Female,Snacks,Chips,15,152,2280,1463.77,816.23
+INV0346,5/8/2025,Mumbai,Member,Female,Dairy,Cheese,4,333,1332,1056.79,275.21
+INV0347,1/28/2025,Pune,Normal,Female,Snacks,Biscuits,12,451,5412,3727.04,1684.96
+INV0348,9/28/2025,Nagpur,Normal,Female,Beverages,Coffee,8,703,5624,4376.48,1247.52
+INV0349,7/7/2025,Pune,Normal,Male,Snacks,Namkeen,14,909,12726,9805.56,2920.44
+INV0350,1/31/2025,Nashik,Normal,Female,Beverages,Tea,1,318,318,211.38,106.62
+INV0351,11/12/2025,Pune,Normal,Male,Personal Care,Face Wash,2,705,1410,1072.97,337.03
+INV0352,3/21/2025,Mumbai,Normal,Male,Dairy,Milk,9,993,8937,5906.99,3030.01
+INV0353,5/6/2025,Nagpur,Normal,Male,Dairy,Yogurt,12,916,10992,7382.13,3609.87
+INV0354,3/31/2025,Nagpur,Member,Male,Personal Care,Shampoo,5,732,3660,3010.38,649.62
+INV0355,5/13/2025,Pune,Normal,Male,Beverages,Coffee,8,405,3240,2452.36,787.64
+INV0356,8/8/2025,Mumbai,Member,Female,Dairy,Milk,13,971,12623,7684.97,4938.03
+INV0357,1/29/2025,Nashik,Member,Female,Household,Detergent,8,516,4128,3109.35,1018.65
+INV0358,12/12/2025,Nagpur,Member,Male,Snacks,Cookies,13,155,2015,1749.59,265.41
+INV0359,7/16/2025,Pune,Member,Male,Beverages,Tea,4,97,388,287.71,100.29
+INV0360,6/13/2025,Mumbai,Member,Female,Household,Mop,4,379,1516,1022.51,493.49
+INV0361,1/24/2025,Nashik,Member,Female,Beverages,Tea,3,278,834,701.65,132.35
+INV0362,1/5/2025,Mumbai,Member,Female,Dairy,Butter,6,138,828,634.19,193.81
+INV0363,7/8/2025,Nashik,Member,Male,Household,Tissue,12,687,8244,5546.36,2697.64
+INV0364,10/5/2025,Mumbai,Member,Female,Snacks,Chips,15,469,7035,4271.46,2763.54
+INV0365,2/23/2025,Pune,Member,Female,Beverages,Soft Drink,14,805,11270,9220.71,2049.29
+INV0366,1/23/2025,Pune,Normal,Female,Personal Care,Shampoo,3,778,2334,1596.33,737.67
+INV0367,11/23/2025,Nashik,Member,Male,Personal Care,Shampoo,10,147,1470,1104.89,365.11
+INV0368,6/11/2025,Nashik,Normal,Female,Personal Care,Soap,4,348,1392,944.19,447.81
+INV0369,3/11/2025,Nagpur,Member,Male,Personal Care,Toothpaste,4,126,504,445.07,58.93
+INV0370,10/2/2025,Mumbai,Member,Female,Snacks,Namkeen,8,371,2968,2142.76,825.24
+INV0371,3/22/2025,Mumbai,Member,Male,Dairy,Yogurt,5,922,4610,2931.84,1678.16
+INV0372,7/2/2025,Nashik,Member,Female,Dairy,Cheese,2,778,1556,1049.47,506.53
+INV0373,10/12/2025,Pune,Member,Female,Dairy,Cheese,1,464,464,397.36,66.64
+INV0374,4/24/2025,Pune,Member,Female,Beverages,Coffee,2,62,124,76.69,47.31
+INV0375,2/8/2025,Nagpur,Member,Male,Dairy,Milk,10,650,6500,4404.7,2095.3
+INV0376,6/19/2025,Nagpur,Member,Female,Personal Care,Soap,2,976,1952,1667.36,284.64
+INV0377,7/22/2025,Nashik,Member,Female,Beverages,Coffee,15,637,9555,6974.64,2580.36
+INV0378,5/21/2025,Mumbai,Normal,Male,Personal Care,Soap,6,269,1614,1408.2,205.8
+INV0379,10/9/2025,Nashik,Member,Male,Beverages,Coffee,11,352,3872,2902.71,969.29
+INV0380,9/27/2025,Pune,Member,Female,Dairy,Yogurt,3,479,1437,948.19,488.81
+INV0381,10/17/2025,Mumbai,Normal,Female,Dairy,Yogurt,9,850,7650,5702.34,1947.66
+INV0382,5/24/2025,Nagpur,Normal,Female,Snacks,Chips,6,661,3966,2640.19,1325.81
+INV0383,5/4/2025,Mumbai,Member,Male,Household,Cleaner,3,152,456,307.51,148.49
+INV0384,3/30/2025,Pune,Member,Female,Household,Mop,6,909,5454,4894.76,559.24
+INV0385,10/18/2025,Pune,Member,Female,Dairy,Milk,12,767,9204,6493.46,2710.54
+INV0386,1/29/2025,Pune,Member,Male,Household,Tissue,3,552,1656,1012.46,643.54
+INV0387,4/14/2025,Pune,Normal,Male,Household,Mop,1,389,389,340.52,48.48
+INV0388,3/14/2025,Nagpur,Normal,Male,Dairy,Milk,1,201,201,155.97,45.03
+INV0389,6/15/2025,Pune,Member,Female,Dairy,Yogurt,10,153,1530,1072.48,457.52
+INV0390,12/22/2025,Mumbai,Member,Male,Personal Care,Toothpaste,3,774,2322,2068.03,253.97
+INV0391,4/1/2025,Nagpur,Normal,Male,Personal Care,Toothpaste,12,755,9060,6236.5,2823.5
+INV0392,4/24/2025,Nagpur,Normal,Male,Snacks,Cookies,15,878,13170,11724.72,1445.28
+INV0393,3/27/2025,Nagpur,Normal,Female,Dairy,Milk,4,405,1620,1449.44,170.56
+INV0394,6/29/2025,Mumbai,Member,Male,Beverages,Juice,4,305,1220,985.7,234.3
+INV0395,3/27/2025,Nashik,Normal,Female,Beverages,Soft Drink,8,800,6400,4645.73,1754.27
+INV0396,10/23/2025,Pune,Member,Female,Dairy,Yogurt,2,898,1796,1335.95,460.05
+INV0397,2/23/2025,Nagpur,Normal,Male,Beverages,Tea,5,70,350,243.47,106.53
+INV0398,2/17/2025,Mumbai,Normal,Male,Personal Care,Soap,12,126,1512,1155.34,356.66
+INV0399,1/28/2025,Nagpur,Normal,Male,Personal Care,Soap,10,961,9610,7017.8,2592.2
+INV0400,10/4/2025,Mumbai,Normal,Female,Snacks,Namkeen,12,617,7404,6046.19,1357.81
+INV0401,9/9/2025,Pune,Member,Female,Snacks,Chips,1,452,452,348.73,103.27
+INV0402,11/17/2025,Nashik,Member,Male,Beverages,Soft Drink,2,351,702,594.71,107.29
+INV0403,2/11/2025,Nashik,Member,Female,Beverages,Coffee,3,703,2109,1450.03,658.97
+INV0404,2/16/2025,Nashik,Member,Female,Personal Care,Face Wash,8,966,7728,6169.36,1558.64
+INV0405,8/14/2025,Nashik,Normal,Male,Personal Care,Toothpaste,3,506,1518,931.12,586.88
+INV0406,2/19/2025,Nagpur,Normal,Female,Dairy,Milk,3,820,2460,1990,470
+INV0407,9/25/2025,Nashik,Normal,Male,Household,Cleaner,9,112,1008,859.06,148.94
+INV0408,1/18/2025,Pune,Member,Female,Personal Care,Toothpaste,2,454,908,790.72,117.28
+INV0409,1/22/2025,Nashik,Member,Female,Snacks,Biscuits,4,877,3508,2307.62,1200.38
+INV0410,2/4/2025,Nagpur,Normal,Female,Snacks,Biscuits,14,659,9226,6249.38,2976.62
+INV0411,1/7/2025,Nashik,Member,Female,Household,Tissue,14,332,4648,3513.45,1134.55
+INV0412,2/21/2025,Nagpur,Member,Female,Snacks,Biscuits,10,652,6520,5051.72,1468.28
+INV0413,12/2/2025,Nashik,Normal,Male,Household,Tissue,15,470,7050,4788.65,2261.35
+INV0414,12/15/2025,Nashik,Member,Female,Snacks,Cookies,7,197,1379,1083.17,295.83
+INV0415,5/18/2025,Mumbai,Member,Female,Dairy,Cheese,1,813,813,603.71,209.29
+INV0416,12/23/2025,Nagpur,Member,Male,Dairy,Butter,5,913,4565,3412.27,1152.73
+INV0417,8/2/2025,Nagpur,Member,Female,Dairy,Yogurt,13,895,11635,8100.99,3534.01
+INV0418,7/11/2025,Nagpur,Member,Male,Snacks,Namkeen,12,546,6552,5424.06,1127.94
+INV0419,10/19/2025,Nagpur,Member,Male,Dairy,Yogurt,3,849,2547,2178.67,368.33
+INV0420,7/4/2025,Pune,Normal,Female,Snacks,Chips,4,83,332,244.66,87.34
+INV0421,1/16/2025,Pune,Normal,Female,Personal Care,Face Wash,11,995,10945,6973.74,3971.26
+INV0422,10/10/2025,Mumbai,Normal,Male,Household,Mop,3,941,2823,2095.72,727.28
+INV0423,3/25/2025,Pune,Member,Male,Dairy,Milk,5,78,390,279.23,110.77
+INV0424,12/16/2025,Nagpur,Normal,Male,Snacks,Cookies,11,469,5159,3889.81,1269.19
+INV0425,6/6/2025,Mumbai,Normal,Female,Snacks,Chips,4,308,1232,964.04,267.96
+INV0426,12/13/2025,Nashik,Member,Male,Dairy,Yogurt,5,273,1365,1010.11,354.89
+INV0427,5/25/2025,Mumbai,Member,Female,Household,Tissue,9,712,6408,4986.27,1421.73
+INV0428,5/22/2025,Mumbai,Normal,Male,Beverages,Juice,5,705,3525,2458.83,1066.17
+INV0429,11/4/2025,Nashik,Normal,Male,Snacks,Biscuits,15,108,1620,1363.44,256.56
+INV0430,7/27/2025,Nashik,Member,Male,Beverages,Soft Drink,5,315,1575,1373.52,201.48
+INV0431,9/1/2025,Mumbai,Normal,Male,Dairy,Cheese,11,597,6567,5197.74,1369.26
+INV0432,5/13/2025,Pune,Normal,Male,Household,Cleaner,5,149,745,552.22,192.78
+INV0433,8/4/2025,Mumbai,Normal,Female,Snacks,Cookies,4,812,3248,2797.92,450.08
+INV0434,1/28/2025,Nagpur,Normal,Male,Household,Tissue,8,921,7368,4681.14,2686.86
+INV0435,6/2/2025,Nashik,Member,Male,Household,Detergent,14,747,10458,7472.25,2985.75
+INV0436,8/23/2025,Pune,Normal,Male,Snacks,Biscuits,6,469,2814,2521.79,292.21
+INV0437,6/10/2025,Nagpur,Member,Female,Beverages,Soft Drink,6,696,4176,3741.66,434.34
+INV0438,3/23/2025,Nashik,Member,Male,Dairy,Cheese,13,842,10946,7121.27,3824.73
+INV0439,9/2/2025,Nashik,Member,Male,Household,Mop,11,489,5379,3878.36,1500.64
+INV0440,6/14/2025,Pune,Member,Male,Household,Cleaner,12,432,5184,4587.95,596.05
+INV0441,3/8/2025,Nagpur,Normal,Female,Snacks,Biscuits,12,948,11376,8000.8,3375.2
+INV0442,5/29/2025,Nashik,Normal,Female,Snacks,Chips,14,96,1344,926.64,417.36
+INV0443,4/7/2025,Pune,Normal,Male,Snacks,Cookies,15,551,8265,5849.76,2415.24
+INV0444,1/12/2025,Pune,Member,Female,Snacks,Biscuits,12,184,2208,1464.69,743.31
+INV0445,10/1/2025,Nagpur,Member,Male,Beverages,Soft Drink,15,705,10575,7156.49,3418.51
+INV0446,7/14/2025,Nagpur,Normal,Female,Beverages,Tea,12,168,2016,1461.67,554.33
+INV0447,6/4/2025,Nashik,Member,Female,Snacks,Biscuits,12,752,9024,7120.78,1903.22
+INV0448,9/19/2025,Nagpur,Normal,Male,Household,Cleaner,7,900,6300,5478.4,821.6
+INV0449,5/15/2025,Pune,Normal,Female,Beverages,Soft Drink,4,673,2692,1776.52,915.48
+INV0450,4/17/2025,Nashik,Normal,Male,Dairy,Cheese,1,611,611,457.58,153.42
+INV0451,10/21/2025,Nashik,Member,Male,Beverages,Tea,11,141,1551,1352.57,198.43
+INV0452,5/12/2025,Pune,Normal,Female,Household,Detergent,12,790,9480,5976.07,3503.93
+INV0453,1/21/2025,Mumbai,Normal,Female,Dairy,Yogurt,1,152,152,128.28,23.72
+INV0454,1/24/2025,Nagpur,Member,Male,Personal Care,Shampoo,2,921,1842,1524.18,317.82
+INV0455,5/18/2025,Nagpur,Normal,Female,Dairy,Butter,15,498,7470,6622.35,847.65
+INV0456,5/20/2025,Nashik,Normal,Female,Snacks,Chips,7,459,3213,2855.37,357.63
+INV0457,3/23/2025,Nagpur,Normal,Female,Snacks,Chips,3,762,2286,1869.77,416.23
+INV0458,7/3/2025,Nagpur,Member,Female,Household,Mop,3,675,2025,1445.7,579.3
+INV0459,2/2/2025,Mumbai,Normal,Male,Personal Care,Shampoo,15,471,7065,5173.04,1891.96
+INV0460,9/25/2025,Nagpur,Normal,Male,Household,Cleaner,11,944,10384,7284.27,3099.73
+INV0461,3/18/2025,Nagpur,Member,Male,Personal Care,Toothpaste,11,742,8162,6467.74,1694.26
+INV0462,2/8/2025,Nashik,Normal,Male,Household,Mop,14,557,7798,6712.71,1085.29
+INV0463,11/26/2025,Nashik,Normal,Male,Dairy,Butter,1,569,569,379.42,189.58
+INV0464,2/15/2025,Nashik,Normal,Female,Beverages,Soft Drink,8,870,6960,5372.5,1587.5
+INV0465,7/26/2025,Nashik,Member,Male,Beverages,Soft Drink,12,719,8628,5222.79,3405.21
+INV0466,12/2/2025,Nashik,Normal,Female,Beverages,Juice,15,570,8550,6572.38,1977.62
+INV0467,11/14/2025,Nashik,Normal,Female,Beverages,Coffee,14,515,7210,5044.06,2165.94
+INV0468,6/24/2025,Mumbai,Normal,Female,Beverages,Tea,13,724,9412,6273.33,3138.67
+INV0469,7/29/2025,Nagpur,Normal,Male,Beverages,Tea,15,218,3270,2445.07,824.93
+INV0470,8/23/2025,Pune,Normal,Male,Snacks,Chips,15,922,13830,9928.13,3901.87
+INV0471,10/29/2025,Nagpur,Normal,Female,Personal Care,Shampoo,15,698,10470,8912.48,1557.52
+INV0472,1/25/2025,Nashik,Normal,Male,Household,Cleaner,8,54,432,327.94,104.06
+INV0473,7/18/2025,Mumbai,Normal,Female,Household,Cleaner,12,884,10608,6773.36,3834.64
+INV0474,5/31/2025,Nashik,Member,Male,Household,Cleaner,5,457,2285,2031.54,253.46
+INV0475,6/10/2025,Pune,Member,Male,Personal Care,Toothpaste,14,768,10752,8218.2,2533.8
+INV0476,3/9/2025,Pune,Normal,Male,Household,Tissue,11,403,4433,3884.89,548.11
+INV0477,12/30/2025,Nashik,Normal,Female,Dairy,Yogurt,10,634,6340,5596.97,743.03
+INV0478,12/10/2025,Nagpur,Member,Female,Beverages,Tea,1,440,440,283.18,156.82
+INV0479,2/1/2025,Mumbai,Member,Male,Snacks,Cookies,11,306,3366,2167.46,1198.54
+INV0480,10/15/2025,Pune,Normal,Male,Dairy,Yogurt,2,680,1360,1170.16,189.84
+INV0481,7/15/2025,Nashik,Normal,Female,Household,Tissue,12,730,8760,5379.46,3380.54
+INV0482,11/14/2025,Nashik,Member,Female,Household,Detergent,1,811,811,547.75,263.25
+INV0483,5/31/2025,Nashik,Member,Male,Household,Cleaner,13,792,10296,9156.1,1139.9
+INV0484,1/21/2025,Nashik,Normal,Female,Snacks,Biscuits,12,576,6912,4394.69,2517.31
+INV0485,6/19/2025,Nashik,Member,Male,Snacks,Biscuits,10,916,9160,6196.78,2963.22
+INV0486,11/17/2025,Mumbai,Normal,Female,Snacks,Cookies,10,102,1020,848.74,171.26
+INV0487,9/24/2025,Nagpur,Member,Female,Beverages,Juice,9,275,2475,2195.56,279.44
+INV0488,4/20/2025,Mumbai,Normal,Female,Household,Mop,2,407,814,542.42,271.58
+INV0489,10/15/2025,Nagpur,Member,Female,Dairy,Cheese,13,683,8879,6740.49,2138.51
+INV0490,11/15/2025,Pune,Member,Female,Personal Care,Soap,15,707,10605,8315.49,2289.51
+INV0491,5/25/2025,Nagpur,Normal,Female,Personal Care,Shampoo,7,312,2184,1664.36,519.64
+INV0492,6/14/2025,Nagpur,Member,Male,Personal Care,Shampoo,5,969,4845,3854,991
+INV0493,11/19/2025,Pune,Normal,Male,Household,Detergent,11,117,1287,853.58,433.42
+INV0494,12/18/2025,Pune,Member,Female,Snacks,Namkeen,11,886,9746,8595.24,1150.76
+INV0495,5/9/2025,Nagpur,Member,Female,Dairy,Milk,2,125,250,154.07,95.93
+INV0496,6/11/2025,Nagpur,Normal,Male,Personal Care,Face Wash,8,695,5560,4010.62,1549.38
+INV0497,10/27/2025,Nagpur,Member,Female,Household,Detergent,11,787,8657,6800.12,1856.88
+INV0498,11/7/2025,Nagpur,Normal,Female,Household,Detergent,5,855,4275,3444.64,830.36
+INV0499,3/22/2025,Pune,Member,Female,Personal Care,Face Wash,14,726,10164,6192.37,3971.63
+INV0500,11/28/2025,Mumbai,Member,Male,Household,Tissue,11,197,2167,1493.97,673.03
